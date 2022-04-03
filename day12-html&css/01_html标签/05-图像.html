@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>05-图像</title>
+</head>
+<body>
+<!--
+
+
+            img : image 图像
+                1. 必要属性 src (source 源)
+                    a. 图片放在static web下的img文件夹
+                    b. 设置两种
+                        1). 本地图片 a.jpg (320*480)
+                        2). 远程图片 (联网)
+
+                2. width: 宽度
+                3. height: 高度
+                     只要设置单边, 另一边也会等比例缩放
+                     所以一般宽高不会同时设置, 同时设置不好看
+
+                4. alt : 如果图片加载失败,出现的提示
+                    (用户的网络不好/ 网络图片被删除)
+
+                5. title: 鼠标移上去出现的提示
+-->
+
+<img src="../img/a.jpg" title="sssssss的说法萨芬 2"  alt="图片加载失败">
+<img src="../img/b.jpg" title="sssssss的说法萨芬 2"  alt="图片加载失败">
+<img src="../img/a.jpg" width="100px" title="sssssss的说法萨芬 2">
+<img src="../img/a.jpg" width="100px" height="100px" title="sssssss的说法萨芬 2">
+<img src="http://images.china.cn/site1000/2022-04/02/6d8d546e-fa72-4ad6-a973-06388b5a6b15.jpg " width="1000px" height="500px">
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>05-字体和文本属性</title>
+    <style>
+        /*
+        渲染需求
+            1.所有文字绿色
+            2.所有文字大小20px
+            3.所有行高40px
+            4.所有字体加粗
+            5.所有字体楷体
+            6.第一句文字倾斜
+            7.第一句隐藏下划线
+        */
+        p{
+            color: green;
+            font-size: 20px;
+            line-height: 40px;
+            font-weight: bold;
+            font-style: italic;
+
+
+        }
+        a{
+            font-style:italic;
+            text-decoration: none;
+
+        }
+        a:link{
+            color: blue;
+        }
+
+        a:hover{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <p>
+        <a href="#"> 学习的误区：</a><br/>
+        眼睛：看了一遍记住了<br/>
+        耳朵：听了一遍明白了<br/>
+        脑子：想了一遍搞懂了<br/>
+        手：你们会个屁！^_^ <br>
+    </p>
+</div>
+</body>
+</html>
